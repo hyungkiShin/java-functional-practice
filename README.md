@@ -17,9 +17,13 @@ Object 를 생각해 봤을때, 매개변수 받을수 있고, 반환값 있고,
 함수 를 object 형태로 나타낸다면, 이모든게 해결된다. 
 
 ---
-### Adder 라는 Class 가  필요없이 lamda 로 n + 10 해결
+### Adder 라는 Class 가  필요없이 lamda 로 n + 10
 
 Function<Integer,Integer> myAdder = new Adder();
 X : myAdder(1); -> 11
-O :  Function<Integer, Integer> myAdder = x -> x + 10;;
+O : Function<Integer, Integer> myAdder = x -> x + 10;
+
+---
+### input 2개로 해결한다면 ?
+
 
