@@ -54,5 +54,8 @@ Functional interface ( 함수의 뼈대 )
   - 함수형 인터페이스를 구현하는 가장 간단한 방법
 
 ### Functional interface
-
-![img.png](img.png)
+- 변수에 넣고 뿌려주는 기능 에서 그이외 기능을 구현
+- Supplier 인터페이스 구현.
+  - Supplier 는 공급하는 인터페이스.
+  - 함수형 인터페이스는 단, 하나의 abstract method 를 갖는데, 
+  - input 이 없이 return 값 만 가지는 함수다.
