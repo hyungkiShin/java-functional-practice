@@ -25,5 +25,21 @@ O : Function<Integer, Integer> myAdder = x -> x + 10;
 
 ---
 ### input 2개로 해결한다면 ?
+```java
+    public static void main(String[] args) {
+        BiFunction<Integer, Integer, Integer> add = (x, y) -> x + y;
+        int result = add.apply(3,5);
+        System.out.println("result = " + result);
+    }
+```
 
+### 위 까지는 2개의 Input 으로 해결 할 수 있는 방안.
+
+3개는 커스텀 해야된다.
+
+Functional interface ( 함수의 뼈대 )
+- 단 하나의 abstract method 만을 가지는 인터페이스
+- (Single Abstract Method interface)
+- Default method 와 static method 는 이미 구현이 되어있으므로 있어도 괜찮다.
+- java.lang.Runnable, java.util.Comparator, java.util.concurrent.Callable, etc
 
