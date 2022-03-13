@@ -43,3 +43,16 @@ Functional interface ( 함수의 뼈대 )
 - Default method 와 static method 는 이미 구현이 되어있으므로 있어도 괜찮다.
 - java.lang.Runnable, java.util.Comparator, java.util.concurrent.Callable, etc
 
+
+마무리
+- Functional Interface
+  - 단 하나의 abstract method 를 가진 interface
+  - Function interface
+  - BiFunction Interface
+  - 나만의 Functional interface
+- Lambda Expression
+  - 함수형 인터페이스를 구현하는 가장 간단한 방법
+
+### Functional interface
+
+![img.png](img.png)
