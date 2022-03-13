@@ -64,3 +64,7 @@ Functional interface ( 함수의 뼈대 )
   - Consumer 는 input Params 만 받는다, 아무것도 리턴하지 않는다.
 - BiConsumer
   - 2개의 input param 을 가지고 accept 를 가지는 아무것도 리턴하지 않는 functional interface
+- Predicate
+  - 어떠한 인풋을 받아서 Boolean 값을 리턴하는 fn interface 다.
+
+![img_1.png](img_1.png)
