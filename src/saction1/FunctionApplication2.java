@@ -1,3 +1,5 @@
+package saction1;
+
 import java.util.function.BiFunction;
 
 public class FunctionApplication2 {

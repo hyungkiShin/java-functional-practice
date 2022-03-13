@@ -1,4 +1,6 @@
-import util.TriFunction;
+package saction1;
+
+import saction1.util.TriFunction;
 
 public class FunctionApplication3 {
     public static void main(String[] args) {

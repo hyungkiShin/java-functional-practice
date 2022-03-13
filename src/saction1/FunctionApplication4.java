@@ -1,3 +1,5 @@
+package saction1;
+
 import java.util.function.Supplier;
 
 public class FunctionApplication4 {

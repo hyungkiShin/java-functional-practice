@@ -41,7 +41,7 @@ Functional interface ( 함수의 뼈대 )
 - 단 하나의 abstract method 만을 가지는 인터페이스
 - (Single Abstract Method interface)
 - Default method 와 static method 는 이미 구현이 되어있으므로 있어도 괜찮다.
-- java.lang.Runnable, java.util.Comparator, java.util.concurrent.Callable, etc
+- java.lang.Runnable, java.saction1.util.Comparator, java.saction1.util.concurrent.Callable, etc
 
 
 마무리
@@ -55,7 +55,12 @@ Functional interface ( 함수의 뼈대 )
 
 ### Functional interface
 - 변수에 넣고 뿌려주는 기능 에서 그이외 기능을 구현
-- Supplier 인터페이스 구현.
+- Supplier 인터페이스
   - Supplier 는 공급하는 인터페이스.
   - 함수형 인터페이스는 단, 하나의 abstract method 를 갖는데, 
   - input 이 없이 return 값 만 가지는 함수다.
+- Consumer 인터페이스
+  - Supplier 와 Consumer 는 정 반대다.
+  - Consumer 는 input Params 만 받는다, 아무것도 리턴하지 않는다.
+- BiConsumer
+  - 2개의 input param 을 가지고 accept 를 가지는 아무것도 리턴하지 않는 functional interface
