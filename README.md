@@ -58,7 +58,7 @@ Functional interface ( 함수의 뼈대 )
 - Supplier 인터페이스
   - Supplier 는 공급하는 인터페이스.
   - 함수형 인터페이스는 단, 하나의 abstract method 를 갖는데, 
-  - input 이 없이 return 값 만 가지는 함수다.
+  - 아무런 input 이 없이 return 값 만 가지는 함수다.
 - Consumer 인터페이스
   - Supplier 와 Consumer 는 정 반대다.
   - Consumer 는 input Params 만 받는다, 아무것도 리턴하지 않는다.
@@ -66,5 +66,10 @@ Functional interface ( 함수의 뼈대 )
   - 2개의 input param 을 가지고 accept 를 가지는 아무것도 리턴하지 않는 functional interface
 - Predicate
   - 어떠한 인풋을 받아서 Boolean 값을 리턴하는 fn interface 다.
+- Comparator
+  - input 2 개를 받아서 어떤 것이 앞으로 가야 되는지 비교를 위한 인터페이스
+
+--- 
+함수가 다른 메서드의 파라미터로 간다는게 어떤것인지 체킹하는게 포인트.
 
 ![img_1.png](img_1.png)
