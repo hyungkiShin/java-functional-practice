@@ -90,3 +90,12 @@ Case 4 가지
 - ClassName::new 
   - 클래스의 constructor 를 지정할때
   
+---
+
+기존에 선언되어 있는 메서드를 지정
+- Method Reference
+  - ClassName::StaticMethodName
+  - objectName::instanceMethodName
+  - ClassName::instanceMethodName
+- Constructor Reference
+  - ClassName::new
