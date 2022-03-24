@@ -99,3 +99,10 @@ Case 4 가지
   - ClassName::instanceMethodName
 - Constructor Reference
   - ClassName::new
+
+---
+### Stream
+- Stream 은 함수형 인터페이스를 적극 활용해 데이터를 매우 간편하게 가공하게 해주는 도구이다.
+- 컬렉션 형태로 구성된 데이터를 람다를 이용해 간결하고 직관적으로 프로세스 하게 해준다고 한다.
+- for while 등을 사용하던 기존 loop 를 대체
+- 손쉽게 병렬처리를 해줌
