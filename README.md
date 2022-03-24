@@ -89,3 +89,4 @@ Case 4 가지
   - 객체의 instance method 를 지정할때
 - ClassName::new 
   - 클래스의 constructor 를 지정할때
+  
