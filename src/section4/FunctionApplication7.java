@@ -51,12 +51,12 @@ public class FunctionApplication7 {
                 ));
 
         List<Order> orders = Arrays.asList(order1, order2, order3);
+
         final List<OrderLine> listStream = orders.stream()
                 .map(Order::getOrderLines)
                 .flatMap(List::stream)
                 .collect(Collectors.toList());
 
-
-
+        System.out.println("listStream = " + listStream);
     }
 }
