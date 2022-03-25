@@ -133,3 +133,8 @@ Optional 만드는법
 - orElseThrow - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 other 로 공급된 값을 리턴.
 - orElseGet - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 supplier 로 공급되는 값을 리턴.
 - orElseThrow - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 exceptionSupplier 로 공급되는 exception 을 던짐.
+---
+Optional 응용
+- ifPresent - Optional 이 null 이 아니라면 action 을 실행
+- map - Optional 이 null 이 mapper 를 적용
+- flatMap - mapper 의 리턴 값이 또 다른 Optional 이라면 한 단계의 Optional 이 되도록 납작하게 해줌. 
