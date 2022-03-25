@@ -23,19 +23,19 @@ public class FunctionApplication2 {
         System.out.println("collect1 = " + collect1);
 
         FUser user1 = new FUser()
-                .setId(1L)
+                .setId(1)
                 .setName("Alice")
                 .setVerified(true)
                 .setEmailAddress("alice@naver.com");
 
         FUser user2 = new FUser()
-                .setId(2L)
+                .setId(2)
                 .setName("Bob")
                 .setVerified(true)
                 .setEmailAddress("bob@naver.com");
 
         FUser user3 = new FUser()
-                .setId(3L)
+                .setId(3)
                 .setName("Charlie")
                 .setVerified(true)
                 .setEmailAddress("charlie@naver.com");

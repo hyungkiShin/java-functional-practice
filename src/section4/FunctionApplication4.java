@@ -12,17 +12,17 @@ import java.util.stream.Stream;
 public class FunctionApplication4 {
     public static void main(String[] args) {
         FUser user = new FUser()
-                .setId(1L)
+                .setId(1)
                 .setName("Alice")
                 .setVerified(true)
                 .setEmailAddress("alice@naver.com");
         FUser user1 = new FUser()
-                .setId(2L)
+                .setId(2)
                 .setName("Bob")
                 .setVerified(false)
                 .setEmailAddress("bob@naver.com");
         FUser user2 = new FUser()
-                .setId(3L)
+                .setId(3)
                 .setName("Charlie")
                 .setVerified(false)
                 .setEmailAddress("charlie@naver.com");

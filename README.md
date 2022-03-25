@@ -120,3 +120,16 @@ Case 4 가지
   - Sorted 스트림안의 데이터를 정렬을 시켜주고
   - Distinct 데이터의 중복을 제거해주고
   - FlatMap map 처럼 데이터의 어떠한 처리를 함과 동시에 그 결과를 납작하게 만들어서 stream of stream 이 아니라, 그냥 stream 이 되도록 해준다.
+---
+  NPE (Null point Exception ) 전략
+  
+Optional 만드는법
+- of - Null 이 아닌 오브젝트를 이용해 Optional 을 만들때
+- Empty - 빈 Optional 을 만들때
+- ofNullable - Null 인지 아닌지 알 지 못하는 오브젝트로 Optional 을 만들때
+- isPresent() - 안의 오브젝트가 null 인지 아닌지 체크. Null이 아닐 시 true
+- get - Optional 안의 값을 추출. Null 이라면 에러.
+- orElse - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 other 로 공급된 값을 리턴.
+- orElseThrow - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 other 로 공급된 값을 리턴.
+- orElseGet - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 supplier 로 공급되는 값을 리턴.
+- orElseThrow - Optional 이 null 이 아니라면 Optional 안의 값을, null 이라면 exceptionSupplier 로 공급되는 exception 을 던짐.
