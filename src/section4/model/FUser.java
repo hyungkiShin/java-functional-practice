@@ -69,4 +69,15 @@ public class FUser {
         this.friendUserIds = friendUserIds;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "FUser{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", verified=" + verified +
+                ", emailAddress='" + emailAddress + '\'' +
+                ", friendUserIds=" + friendUserIds +
+                '}';
+    }
 }
