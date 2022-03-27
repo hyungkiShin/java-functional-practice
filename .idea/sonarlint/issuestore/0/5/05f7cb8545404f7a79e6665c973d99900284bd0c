@@ -1,0 +1,9 @@
+
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(“òëðúÿÿÿÿ
+T	java:S106K"9Replace this use of System.out or System.err by a logger.(ô€¹Z8Ö¬ÿýû/
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+J
+java:S1128
+"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ýìu

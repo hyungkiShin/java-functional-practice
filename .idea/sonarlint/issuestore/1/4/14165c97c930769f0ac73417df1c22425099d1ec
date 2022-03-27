@@ -1,0 +1,12 @@
+
+X
+java:S1854"BRemove this useless assignment to local variable "cityStreamList".(ÒÃç‡
+V
+java:S1612";Replace this lambda with method reference 'Arrays::stream'.(ÍÍ¶şÿÿÿÿ
+I
+java:S1481"3Remove this unused "cityStreamList" local variable.(ÒÃç‡
+V
+java:S1612";Replace this lambda with method reference 'Arrays::stream'.(˜´§ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(è…óê
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(ˆô›‹8ò¤ÊŠü/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ıìu

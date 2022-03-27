@@ -1,0 +1,15 @@
+
+W
+java:S1854"<Remove this useless assignment to local variable "cityList".(¸ŠŒùÿÿÿÿ
+Q
+java:S1854";Remove this useless assignment to local variable "collect".(‹Ø´
+B
+java:S1481",Remove this unused "collect" local variable.(‹Ø´
+Q	java:S125"<This block of commented-out lines of code should be removed.(âµÍª
+H
+java:S1481"-Remove this unused "cityList" local variable.(¸ŠŒùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÙŸ¨úÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ó«¾ÿÿÿÿÿ8Ò³°æû/
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8‚Æ¯æû/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ıìu

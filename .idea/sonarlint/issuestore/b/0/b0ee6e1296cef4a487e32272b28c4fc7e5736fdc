@@ -1,0 +1,17 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "test".(è¶¹¢ùÿÿÿÿ
+T
+java:S1854"?Remove this useless assignment to local variable "hello_world".(­Þöq
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(¹€´·
+E
+java:S1481"0Remove this unused "hello_world" local variable.(­Þöq
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÒËÕñ
+D
+java:S1481")Remove this unused "test" local variable.(è¶¹¢ùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(æâÆþ
+V	java:S125"<This block of commented-out lines of code should be removed.(âôîÙøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(•Ôóè
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Þöq
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(à‚ ‡
